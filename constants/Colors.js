@@ -10,6 +10,7 @@ export const Colors = {
     iconColor: "#9591a5",
     iconColorFocused: "#fff",
     uiBackground: "#2f2b3d",
+    placeholderTextColor: "red",
   },
 
   light: {
@@ -20,5 +21,6 @@ export const Colors = {
     iconColor: "#6d6588",
     iconColorFocused: "#201e2b",
     uiBackground: "#d6d5e1",
+    placeholderTextColor: "#352a2a",
   },
 };
