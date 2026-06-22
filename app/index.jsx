@@ -17,11 +17,20 @@ const Home = () => {
       <Spacer height={10} />
       <ThemedText>Themed Some text </ThemedText>
       <Spacer />
-      <Link href="/about" style={styles.link}>
-        <ThemedText>Go to About Page</ThemedText>
+      <Link href="/login" style={styles.link}>
+        <ThemedText>Login Page</ThemedText>
       </Link>
-      <Link href="/contact" style={styles.link}>
-        <ThemedText>Go to Contact Page</ThemedText>
+      <Link href="/register" style={styles.link}>
+        <ThemedText>Register Page</ThemedText>
+      </Link>
+      <Link href="/profile" style={styles.link}>
+        <ThemedText>Profile Page</ThemedText>
+      </Link>
+      <Link href="/create" style={styles.link}>
+        <ThemedText>Create Page</ThemedText>
+      </Link>
+      <Link href="/books" style={styles.link}>
+        <ThemedText>Books Page</ThemedText>
       </Link>
     </ThemedView>
   );
