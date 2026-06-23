@@ -25,7 +25,7 @@ const Login = () => {
     setError(null);
 
     try {
-      await login(email, register);
+      await login(email, password);
     } catch (er) {
       setError(er?.message);
       console.log(er);

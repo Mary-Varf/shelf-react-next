@@ -30,6 +30,7 @@ const Register = () => {
       console.log(er);
     }
   };
+
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <ThemedView style={styles.container}>
@@ -64,6 +65,12 @@ const Register = () => {
         <Spacer height={100} />
         <Link href="/login">
           <ThemedText style={{ textAlign: "center" }}>Login instead</ThemedText>
+        </Link>
+
+        <Spacer height={100} />
+
+        <Link href="/" style={styles.link}>
+          <ThemedText>Home</ThemedText>
         </Link>
       </ThemedView>
     </TouchableWithoutFeedback>
